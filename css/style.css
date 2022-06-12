@@ -1,5 +1,5 @@
 html,body {
-  background: #cbdf90ff;
+  background: #4d7c8aff;
   max-width: 90%;
   margin: auto;
 
@@ -10,28 +10,43 @@ html,body {
   background: #7f9c96ff;
 }
 
+a:visited {
+  color: #8fad88ff
+}
+
 sectiontitle {
   width: 90%;
   background: #4d7c8aff
 }
 
-sectioncontent {
-  width:85%;
-  background:  #7f9c96ff;
-  margin: 40px;
-}
-
-p,ul,li {
+article {
   color: #cbdf90ff;
   width: 80%;
   margin: 30px;
   font-family: "Segoe IU";
   background-color: #1b4079ff;
-  padding: 10px;
+  padding: 15px;
 
 }
 
-h1,h2,h3 {
+p {
+  padding-left:10px
+
+}
+
+ul {
   color: #cbdf90ff;
-  margin: 20px;
+  width: 80%;
+  margin: 30px;
+  font-family: "Segoe IU";
+  background-color: #1b4079ff;
+}
+
+li {
+  padding: 10px;
+}
+
+h1,h2,h3 {
+  color: #8fad88ff;
+
 }
