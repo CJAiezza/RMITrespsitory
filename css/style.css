@@ -1,3 +1,14 @@
-p {
-  color:Black
+container {
+  width: auto;
+  background
+  : #1b4079ff;
+}
+
+sectiontitle {
+  width: 90%;
+  background: #4d7c8aff
+}
+
+sectioncontent {
+
 }
