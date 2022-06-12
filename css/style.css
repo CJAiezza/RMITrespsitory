@@ -1,6 +1,13 @@
-container {
-  width: auto;
-  background: #1b4079ff;
+html,body {
+  background: #cbdf90ff;
+  max-width: 90%;
+  margin: auto;
+
+}
+
+#container {
+  width: 90%;
+  background: #7f9c96ff;
 }
 
 sectiontitle {
@@ -10,10 +17,21 @@ sectiontitle {
 
 sectioncontent {
   width:85%;
-  background:  #7f9c96ff
+  background:  #7f9c96ff;
+  margin: 40px;
+}
+
+p,ul,li {
+  color: #cbdf90ff;
+  width: 80%;
+  margin: 30px;
+  font-family: "Segoe IU";
+  background-color: #1b4079ff;
+  padding: 10px;
 
 }
 
-p {
-  color:  #cbdf90ff
+h1,h2,h3 {
+  color: #cbdf90ff;
+  margin: 20px;
 }
