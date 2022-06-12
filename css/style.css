@@ -1,7 +1,6 @@
 container {
   width: auto;
-  background
-  : #1b4079ff;
+  background: #1b4079ff;
 }
 
 sectiontitle {
@@ -10,5 +9,11 @@ sectiontitle {
 }
 
 sectioncontent {
+  width:85%;
+  background:  #7f9c96ff
 
+}
+
+p {
+  color:  #cbdf90ff
 }
