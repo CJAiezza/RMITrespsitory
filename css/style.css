@@ -15,6 +15,14 @@ a:visited {
   color: #8fad88ff
 }
 
+a:link {
+  color: #cbdf90ff
+}
+
+a:hover {
+  color: #4d7c8aff
+}
+
 section {
 
 }
