@@ -1,73 +1,95 @@
 html,body {
-  background: #4d7c8aff;
-  max-width: 90%;
-  margin: auto;
+  background: #134074;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
 
+.clear {clear: both;}
+
+#headshot {
+
+  float: left;
+}
+
+#name {
+  float: left;
+  padding: 3px
+}
+
+#contactdetails {
+  float: right;
 }
 
 #container {
-  width: 100%;
-  background: #7f9c96ff;
-  margin: auto;
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+  background: #100D4D;
+  padding: 30px;
+}
+
+#mainarea {
+  color: #8DA9C4;
+  padding: 0 40px;
 }
 
 a:visited {
-  color: #8fad88ff
+  color: #EEF4ED;
+  text-decoration: none;
 }
 
 a:link {
-  color: #cbdf90ff
+  color: #cbdf90ff;
+    text-decoration: none;
 }
 
 a:hover {
-  color: #4d7c8aff
+  color: #4d7c8aff;
+    text-decoration: none;
 }
 
 section {
-
+  border-top: 1px solid #EEF4ED;
+  padding: 20px 0 0;
 }
 
 article {
-  color: #cbdf90ff;
-  width: 90%;
-  margin: 30px;
-  font-family: "Segoe IU";
-  background-color: #1b4079ff;
-  padding: 15px;
 
 }
 
 p {
-  padding-left:10px
-
+  margin-bottom: 20px;
+  color: #EEF4ED;
+  line-height: 2em;
 }
 
 ul {
-  color: #cbdf90ff;
-  width: 80%;
-  margin: 30px;
-  font-family: "Segoe IU";
-  background-color: #1b4079ff;
+  color: #EEF4ED;
 }
 
 li {
-  padding: 5px;
+
 }
 
-header1 {
-  color: #8fad88ff;
-  font-size: 20pt;
-  font-weight: bold;
+.sectionTitle {
+  color: #8DA9C4;
+  float: left;
+  width: 30%;
 }
 
-header2 {
-  color: #8fad88ff;
-  font-size: 18pt;
-  font-weight: bold;
+.sectionContent {
+  float: right;
+  width: 73.5%;
 }
 
-header3 {
-  color: #8fad88ff;
-  font-size: 14pt;
-  font-weight: bold;
+.sectionTitlesub {
+  color: #8DA9C4;
+}
+
+.header {
+  background: #242F4F
+}
+
+img {
+  border: 2px solid #EEF4ED;
 }
